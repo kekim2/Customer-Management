@@ -1,3 +1,6 @@
+## Management System
+this is the system that only for custom's information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

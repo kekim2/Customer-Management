@@ -77,12 +77,14 @@ callApi = async () => {
           <TableCell>BirthDay</TableCell>
           <TableCell>Gender</TableCell>
           <TableCell>Job</TableCell>
+          <TableCell>Configure</TableCell>
         </TableRow>
       </TableHead>
       <TableBody>
       {this.state.customer ? this.state.customer.map(c => {
         return (
           <Customer
+            stateRefresh={this.stateRefresh}
             key={c.id}
             id={c.id}
             image={c.image}
